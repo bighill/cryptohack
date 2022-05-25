@@ -2,7 +2,5 @@ version: "3.9"
 
 services:
   py:
-    image: python:3
-    volumes:
-      - ./solutions:/solutions
+    build: .
     working_dir: /solutions

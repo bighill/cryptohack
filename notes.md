@@ -23,3 +23,17 @@ Convert byte strings to hex.
 Encode bytes into Base64.
 
 Import base64 in order to use this: `import base64`
+
+## PyCryptodome
+
+The PyCryptodome library needs to be installed as a requirement. Also needs to be imported like this...
+
+```python
+from Crypto.Util.number import long_to_bytes
+# or
+from Crypto.Util.number import *
+```
+
+`Crypto.Util.number.long_to_bytes()` : Convert a positive integer to a byte string
+
+`Crypto.Util.number.bytes_to_long` : Convert a byte string to a long integer
