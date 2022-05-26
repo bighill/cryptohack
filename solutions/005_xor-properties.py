@@ -7,7 +7,6 @@ KEY2 ^ KEY3 = c1545756687e7573db23aa1c3452a098b71a7fbf0fddddde5fc1
 FLAG ^ KEY1 ^ KEY3 ^ KEY2 = 04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf 
 """
 
-
 def hex_to_byte_list(h):
     _bytes = bytes.fromhex(h)
     result = []

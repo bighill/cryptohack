@@ -4,3 +4,5 @@ services:
   py:
     build: .
     working_dir: /solutions
+    volumes:
+      - ./solutions:/solutions
